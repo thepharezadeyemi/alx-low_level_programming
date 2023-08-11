@@ -30,7 +30,6 @@ int is_digit(char *s)
  */
 int _strlen(char *s)
 {
-
 	int i = 0;
 
 	while (s[i] != '\0')
@@ -68,7 +67,6 @@ int main(int argc, char *argv[])
 
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
-
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
 	len = len1 + len2 + 1;
