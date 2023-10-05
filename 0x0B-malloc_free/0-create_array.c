@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -7,26 +6,26 @@
  * @size: size of array of int
  * @c: to store the strings of character
  *
- * Reaturn: a pointer to character c
+ * Return: a pointer to character c
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
+	char *str;
 	unsigned int i;
-	char *ptr;
-	
-	for (i = 1; i <= size; i++)
-	{
-		ptr(i) = c;
-	}
 
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	ptr = malloc(sizeof(char) * size);
-	if (ptr == NULL)
+	str = malloc(sizeof(char) * size);
+	if (str == NULL)
 	{
-		return (NULL)
+		return (NULL);
 	}
-	return (ptr);
+
+	for (i = 1; i <= size; i++)
+	{
+		str[i] = c;
+	}
+	return (str);
 }
