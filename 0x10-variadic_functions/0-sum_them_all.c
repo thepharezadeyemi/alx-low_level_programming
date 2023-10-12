@@ -5,10 +5,11 @@
 
 /*
  * sum_them_all - sum all parameter passed into the function
+ *
  * @n: number of arguments
  * Return: sum
  */
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int sum = 0;
 	unsigned int j;
