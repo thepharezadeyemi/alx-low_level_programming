@@ -11,4 +11,7 @@ int _sqrt_recursion(int n);
 int sqrt_a(int a, int b);
 int is_prime_number(int n);
 int prime_i(int i, int r);
+int is_palindrome(char *s);
+int compare_str(char *s, int l, int r);
+int _strlen_recursion(char *s);
 #endif
