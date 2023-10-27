@@ -27,9 +27,9 @@ int _strlen_recursion(char *s)
 int compare_str(char *s, int l, int r)
 {
 	if (*(s + l) == *(s + r))
-        {
-                if (l == r || l == r + 1)
-                        return (1);
+	{
+		if (l == r || l == r + 1)
+			return (1);
 	return (0 + compare_str(s, l + 1, r - 1));
 	}
 	return (0);
