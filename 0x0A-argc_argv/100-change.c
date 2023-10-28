@@ -24,17 +24,17 @@ int main(int argc, char **argv)
 		{
 			cent -= 25;
 		}
-		else if (cent >= 2)
+		else if (cent >= 10)
 		{
-			cent -= 2;
+			cent -= 10;
 		}
 		else if (cent >= 5)
 		{
 			cent -= 5;
 		}
-		else if (cent >= 10)
+		else if (cent >= 2)
 		{
-			cent -= 10;
+			cent -= 2;
 		}
 		else if (cent >= 1)
 		{
