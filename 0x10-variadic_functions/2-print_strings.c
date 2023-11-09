@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 
-/*
+/**
  * print_strings - print strings passed to a function
  * @separator: separator between strings
  * @n: number of strings to print

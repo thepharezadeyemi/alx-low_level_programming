@@ -8,7 +8,7 @@
  * @n: number of integers to print
  * Return: void
  */
-void print_strings(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int j, kkk;
 
