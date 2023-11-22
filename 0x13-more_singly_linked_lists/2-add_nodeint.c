@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - add node to list
+ * add_nodeint - add node to beginning of list
  * @head: head pointer
  * @n: new integer
  * Return: pointer  if success or NULL if failed
